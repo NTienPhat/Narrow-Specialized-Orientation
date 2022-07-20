@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2022, 3:35:42 PM
+    Author     : user
+*/
+
+
+#inputsearch
+{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+form select
+{
+    border: 2px solid black;
+}
+
+.btnsearch
+{
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.btnadd
+{
+    boder: 2px solid black;
+    border-radius: 6px;
+    margin-bottom: 3px;
+    background-color: white;
+}
+
+body
+{
+    background-color: #C4C9D6;
+}
+
+
+

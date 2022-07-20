@@ -1,0 +1,248 @@
+*{
+      font-family: 'Poppins', sans-serif !important;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: -moz-none;
+      -o-user-select: none;
+      user-select: none;
+    }
+
+    /*searchbox*/
+
+    .custom_search {
+      color: #FFF !important;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      border-bottom: 2px solid #FFF;
+      width: 240px !important;
+    }
+
+    .custom_search:focus {
+      box-shadow: none;
+      background: transparent;
+      border-bottom: 2px solid #FFF;
+    }
+
+    .custom_search+.search_span {
+      position: absolute;
+      bottom: 0;
+      width: 0;
+      left: 50%;
+      transition: width 0.5s, left 0.5s;
+    }
+
+    .custom_search:focus+.search_span {
+      width: 240px;
+      left: 0;
+      border-bottom: 2px solid #c128ea;
+    }
+
+    .custom_search::placeholder {
+      color: #FFF !important;
+    }
+
+    .search_button {
+      background: #404547;
+      width: 100px;
+      border: 0;
+    }
+
+    .search_button:focus {
+      border: 0;
+      box-shadow: none;
+    }
+
+    .search_button:active {
+      background: #8e24aa !important;
+      box-shadow: none !important;
+    }
+
+    .search_button:hover {
+      background: #8e24aa;
+    }
+
+    /*ripple effect*/
+
+    .tx--white {
+      color: #fff;
+    }
+
+    [ripple] {
+      position: relative;
+      overflow: hidden;
+    }
+
+    [ripple] .ripple--container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    [ripple] .ripple--container span {
+      transform: scale(0);
+      border-radius: 100%;
+      position: absolute;
+      opacity: 0.30;
+      background-color: #fff;
+      animation: ripple 1000ms;
+    }
+
+    @-moz-keyframes ripple {
+      to {
+        opacity: 0;
+        transform: scale(2);
+      }
+    }
+
+    @-webkit-keyframes ripple {
+      to {
+        opacity: 0;
+        transform: scale(2);
+      }
+    }
+
+    @-o-keyframes ripple {
+      to {
+        opacity: 0;
+        transform: scale(2);
+      }
+    }
+
+    @keyframes ripple {
+      to {
+        opacity: 0;
+        transform: scale(2);
+      }
+    }
+
+    /*navbar*/
+
+    .navbar {
+      background: #f86c24 !important;
+      line-height: 2rem !important;
+    }
+
+    .navbar .navbar-brand {
+      color: #FFF !important;
+    }
+
+    .navbar-nav .active a {
+      color: #c128ea !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      color: #FFF;
+    }
+
+    .dropdown-menu {
+      background: #22221E;
+    }
+
+    .dropdown-menu .dropdown-item {
+      color: #FFF;
+      transition: all 0.2s;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+      background: #8e24aa;
+      color: #FFF;
+    }
+
+    .navbar-toggler-icon {
+      color: #FFF !important;
+    }
+
+    .navbar-dark .navbar-toggler {
+      border-color: #FFFFFF !important;
+    }
+
+
+    /**/
+    .hover-menu {
+      position: relative;
+      overflow: hidden;
+      margin: 8px;
+
+      width: 100%;
+      background: white;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .hover-menu * {
+      box-sizing: border-box;
+    }
+
+    .hover-menu img {
+      position: relative;
+      max-width: 100%;
+      top: 0;
+      right: 0;
+      opacity: 1;
+      transition: 0.3s ease-in-out;
+    }
+
+    .hover-menu div {
+      position: absolute;
+      top: 0;
+      left: -190px;
+      width: 190px;
+      height: 100%;
+      padding: 8px 4px;
+      background: #000;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hover-menu div a {
+      display: block;
+      line-height: 2;
+      color: #fff;
+      text-decoration: none;
+      opacity: 0.8;
+      padding: 1px 15px;
+      position: relative;
+      transition: 0.3s ease-in-out;
+    }
+
+    .hover-menu div a:hover {
+      text-decoration: underline;
+    }
+
+    .hover-menu:hover img {
+      opacity: 0.5;
+      right: -120px;
+    }
+
+    .hover-menu:hover div {
+      left: 0;
+      opacity: 1;
+    }
+
+    h1 {
+      color: burlywood;
+      border-bottom: 2px solid black;
+      border-top: 2px solid black;
+      font-weight: bold;
+    }
+    .majors p{
+      color: #c128ea;
+      background-color: azure;
+      font-weight: bold;
+    }
+
+    .hover-menu a
+    {
+      font-size: small;
+      text-decoration: none;
+      border-bottom: 1px solid white;
+    }
+    .hover-menu a:hover
+    {
+      color: cyan;
+    }

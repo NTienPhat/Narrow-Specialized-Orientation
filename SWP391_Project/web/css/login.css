@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2022, 12:20:20 PM
+    Author     : lamtr
+*/
+
+#login-page {
+    min-height: 100vh;
+    background: url(../images/bg-login.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.main-form-login {
+    width: 450px;
+    max-width: 100%;
+    background: #ffffff;
+    padding: 30px 45px 15px;
+    border-radius: 20px;
+}
+
+.logo-form-login {
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.tt-st3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d83d13;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttom-st3 {
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.6);
+}
+
+.buttom-form-login {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}

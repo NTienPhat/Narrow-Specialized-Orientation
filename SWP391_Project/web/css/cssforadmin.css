@@ -1,0 +1,153 @@
+body 
+{
+    font-family: 'Play', sans-serif;
+}
+body:after
+{ 
+    display: table;
+    position:absolute; 
+    right:0; 
+    bottom:0;
+}
+#dp_menu 
+{
+    padding:12px; 
+    position: relative;
+}
+#dp_menu button 
+{
+    display:table; 
+    border:none; 
+    padding: 0; 
+    cursor: pointer; 
+    border-radius: 7px; 
+    overflow: hidden;
+}
+#dp_menu button span
+{
+    display:block;
+    padding: 12px;
+    float: left;
+    width: 128px; 
+    background: white;
+    color: black;
+}
+#dp_menu button:before 
+{
+    content: "\2261"; 
+    display: table; 
+    width: 24px;
+    padding: 12px;
+    font-weight: bold; 
+    background: #221c1c;
+    color: #fff; 
+    float:right
+}
+#dp_menu:before, #dp_menu:after, #dp_menu ul:before, #dp_menu ul:after 
+{
+    content:" ";
+    clear:both; 
+    display:block; 
+    width:0; height:0
+}
+
+.left
+{
+    display: block;
+    width: 48%;
+    float: left;
+
+}
+
+.right
+{
+    display: block;
+    width: 48%;
+    float: right;
+}
+
+.right form
+{
+    position: absolute;
+    right :0%;
+}
+
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#dp_menu ul, #dp_menu li 
+{
+    margin:0;
+    padding:0;
+    list-style:none
+}
+#dp_menu ul 
+{
+    position: absolute;
+    width: 180px;
+    background: #ffffff;
+}
+#dp_menu li 
+{
+    display:block; 
+    padding: 12px;
+    border-top:1px solid #000000; 
+    border-bottom:1px solid #999;
+    text-align:center
+}
+html body:after 
+{
+    
+}
+#dp_menu.show button 
+{
+    border-radius: 7px 7px 0 0;
+}
+#dp_menu.show button:before 
+{
+    content: "\0058"; 
+}
+#dp_menu .sub-menu 
+{
+    display:none
+}
+
+header
+{
+    width: 100%;
+    background-color: #f86c24;
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.1%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+header h1
+{
+    color: white;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #f86c24;
+    text-align: center;
+    margin-top:auto;
+    color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.table th td
+{
+    border: 1px solid black;
+}
+
